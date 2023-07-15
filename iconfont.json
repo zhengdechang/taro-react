@@ -1,0 +1,10 @@
+{
+  "symbol_url": "http://at.alicdn.com/t/font_1373348_kk9y3jk2omq.js",
+  "save_dir": "./src/assets/iconfont",
+  "use_typescript": true,
+  "platforms": ["weapp", "h5"],
+  "use_rpx": true,
+  "trim_icon_prefix": "icon",
+  "default_icon_size": 18,
+  "design_width": 750
+}

@@ -1,0 +1,51 @@
+.content {
+  :global {
+    .at-float-layout .layout-header {
+      border-radius: 10px;
+    }
+
+    // 修改model的边角弧度
+    .at-float-layout__container {
+      width: 80% !important;
+      margin-left: 10%;
+      border-radius: 10px;
+    }
+  }
+
+  .table {
+    background: #f7f7f7;
+    border-radius: 4px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .infoA {
+    width: 40px;
+    height: 20px;
+    background: #21cc5a;
+    border-radius: 10px;
+    font-size: 12px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .infoB1 {
+    font-size: 12px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #0077ff;
+    line-height: 15px;
+    margin: 5px 0px;
+  }
+
+  .item {
+    display: flex;
+    justify-content: center;
+  }
+}

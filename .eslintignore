@@ -1,0 +1,13 @@
+/config/**
+!config/*.js
+
+/dist/**
+/docs/**
+/node_modules/**
+.md
+*.json
+*.html
+index.html
+*.md
+package.json
+iconfont.json

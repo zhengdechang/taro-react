@@ -1,0 +1,49 @@
+.SkeletonCmpt {
+  // @include position-way-tl(absolute, 0, 0);
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  overflow: hidden;
+  z-index: 1000;
+  .skeleton {
+    position: absolute;
+    background-color: #f2f3f5;
+    &-radius {
+      border-radius: 50%;
+    }
+    &-animate {
+      &-blink {
+        animation: skeleton-blink 1.5s ease-in-out infinite;
+      }
+      &-elastic {
+        animation: skeleton-elastic 2s ease-in-out infinite;
+      }
+      &-gradient {
+        background-image: linear-gradient(90deg, #f2f3f5 25%, #e6e6e6 37%, #f2f3f5 63%);
+        list-style: none;
+        background-size: 400% 100%;
+        background-position: 100% 50%;
+        animation: skeleton-gradient 1.8s ease-in-out infinite;
+      }
+    }
+  }
+
+  @keyframes skeleton-blink {
+    50% {
+      opacity: 0.6;
+    }
+  }
+  @keyframes skeleton-elastic {
+    50% {
+      transform: scaleX(0.3);
+    }
+  }
+  @keyframes skeleton-gradient {
+    0% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
+  }
+}

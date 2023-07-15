@@ -1,0 +1,96 @@
+@import '@/assets/styles/iconfont.scss';
+
+.forum-detail {
+  &__container {
+    padding-bottom: 12vw;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    padding: 3vw;
+
+    .avatar {
+      width: 12vw;
+      height: 12vw;
+      margin-right: 3vw;
+      border-radius: 50%;
+    }
+
+    .author {
+      color: #333;
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+    .star {
+      margin-left: auto;
+      color: #999;
+      font-size: 1.2em;
+    }
+  }
+
+  &__image {
+    width: 100vw;
+    height: 40vw;
+  }
+
+  &__wrap {
+    padding: 0 3vw;
+
+    .title {
+      margin: 0.4em 0;
+      color: #666;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    .content {
+      margin: 0.8em 0;
+      color: #999;
+      font-size: 1em;
+    }
+
+    .time {
+      color: #999;
+      font-size: 0.6em;
+      font-weight: normal;
+    }
+  }
+
+  &__footer {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 94vw;
+    height: 10vw;
+    padding: 2vw 3vw;
+    color: #666;
+    border-top: #d7d7d7 1px solid;
+    background: #fff;
+    font-size: 0.8em;
+
+    .icon-like {
+      margin-right: 0.2em;
+      color: #fa4b2a;
+      font-size: 1em;
+    }
+
+    .icon-comment {
+      margin: 0 0.2em;
+      color: #66a6ff;
+      font-size: 1em;
+    }
+
+    .input {
+      flex: 1;
+      margin-left: 1em;
+      padding: 2vw 3vw;
+      border: #d7d7d7 1px solid;
+      border-radius: 20px;
+      font-size: 0.6em;
+    }
+  }
+}

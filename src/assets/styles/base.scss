@@ -1,0 +1,74 @@
+$primary-color: #d43c33;
+/* 行为相关颜色 */
+$color-primary: #fa4b2a !default;
+$color-dark: #666 !default;
+$color-light: #fff !default;
+$color-secondary: #576b95;
+$color-green: #2ba245;
+$color-yellow: #f0ad4e;
+$color-red: #e64340;
+
+/* 文字基本颜色 */
+$text-color: #333; //基本色
+$text-color-inverse: #fff; //反色
+$text-color-grey: #999; //辅助灰色，如加载更多的提示信息
+$text-color-placeholder: #808080;
+$text-color-disable: #c0c0c0;
+
+/* 背景颜色 */
+$bg-color: #ffffff;
+$bg-color-primary: #fa4b2a;
+$bg-color-grey: #f8f8f8;
+$bg-color-hover: #f1f1f1; //点击状态颜色
+$bg-color-mask: rgba(0, 0, 0, 0.4); //遮罩颜色
+
+/* 边框颜色 */
+$border-color: #f1f1f1;
+$border-color-primary: #fa4b2a;
+/* 尺寸变量 */
+
+/* 文字尺寸 */
+$font-size-primary: 1.4em;
+$font-size-sm: 24px;
+$font-size-base: 28px;
+$font-size-lg: 32px;
+
+/* 图片尺寸 */
+$img-size-sm: 40px;
+$img-size-base: 52px;
+$img-size-lg: 80px;
+
+/* Border Radius */
+$border-radius-sm: 4px;
+$border-radius-base: 6px;
+$border-radius-lg: 12px;
+$border-radius-circle: 50%;
+
+/* 水平间距 */
+$spacing-row-sm: 10px;
+$spacing-row-base: 20px;
+$spacing-row-lg: 30px;
+
+/* 垂直间距 */
+$spacing-col-sm: 8px;
+$spacing-col-base: 16px;
+$spacing-col-lg: 24px;
+
+/* 透明度 */
+$opacity-disabled: 0.3; // 组件禁用态的透明度
+
+/* 文章场景相关 */
+$color-title: #2c405a; // 文章标题颜色
+$font-size-title: 40px;
+$color-subtitle: #555555; // 二级标题颜色
+$font-size-subtitle: 36px;
+$color-paragraph: #3f536e; // 文章段落颜色
+$font-size-paragraph: 30px;
+
+@mixin text-ellipsis {
+  overflow: hidden;
+  /*文本不会换行*/
+  white-space: nowrap;
+  /*当文本溢出包含元素时，以省略号表示超出的文本*/
+  text-overflow: ellipsis;
+}

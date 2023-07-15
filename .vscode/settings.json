@@ -1,0 +1,194 @@
+{
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "volar.tsPlugin": true,
+  "volar.tsPluginStatus": false,
+  "terminal.integrated.tabs.enabled": true,
+  "breadcrumbs.enabled": false,
+  "workbench.sideBar.location": "left",
+  //===========================================
+  //============= Editor ======================
+  //===========================================
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  // eslint
+  "eslint.alwaysShowStatus": true, // 总是在 VSCode 显示 ESLint 的状态
+  "eslint.quiet": true, // 忽略 warning 的错误
+  "editor.codeActionsOnSave": {
+    // 保存时使用 ESLint 修复可修复错误
+    "source.fixAll": true,
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  //===========================================
+  //============= files =======================
+  //===========================================
+  "files.eol": "\n",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/*.log": true,
+    "**/*.log*": true,
+    "**/bower_components": true,
+    "**/dist": true,
+    "**/elehukouben": true,
+    "**/.git": true,
+    "**/.gitignore": true,
+    "**/.svn": true,
+    "**/.DS_Store": true,
+    "**/.idea": true,
+    "**/.vscode": false,
+    "**/yarn.lock": true,
+    "**/tmp": true,
+    "out": true,
+    "dist": true,
+    "node_modules": true,
+    "CHANGELOG.md": true,
+    "examples": true,
+    "res": true,
+    "screenshots": true,
+    "yarn-error.log": true,
+    "**/.yarn": true
+  },
+  "files.exclude": {
+    "**/.cache": true,
+    "**/.editorconfig": true,
+    "**/.eslintcache": true,
+    "**/bower_components": true,
+    "**/.idea": true,
+    "**/tmp": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/.vscode/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true,
+    "**/bower_components/**": true,
+    "**/dist/**": true,
+    "**/yarn.lock": true
+  },
+  "stylelint.enable": true,
+  "stylelint.packageManager": "yarn",
+  "path-intellisense.mappings": {
+    "/@/": "${workspaceRoot}/src"
+  },
+  // prettier
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": false
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "powermode.shakeIntensity": 0,
+  "powermode.enabled": true,
+  //  #去掉代码结尾的分号
+  "prettier.semi": false,
+  //  #使用带引号替代双引号
+  "prettier.singleQuote": true,
+  // eslint 检测文件类型
+  "prettier.tabWidth": 4,
+  "prettier.printWidth": 120,
+  "eslint.validate": ["javascript", "javascriptreact", "html", "vue"],
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "json.schemaDownload.enable": false,
+  "px2xx.width": 1920,
+  "workbench.iconTheme": "vscode-icons",
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "name": {
+        "highlight": "#fff"
+      }
+    }
+  },
+  "extensions.ignoreRecommendations": true,
+  "i18n-ally.localesPaths": ["src/locales/lang"],
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.sortKeys": true,
+  "i18n-ally.namespace": true,
+  "i18n-ally.pathMatcher": "{locale}/{namespaces}.{ext}",
+  "i18n-ally.enabledParsers": ["ts"],
+  "i18n-ally.sourceLanguage": "en",
+  "i18n-ally.displayLanguage": "zh-CN",
+  "i18n-ally.enabledFrameworks": ["vue", "react"],
+  "cSpell.words": [
+    "antv",
+    "brotli",
+    "browserslist",
+    "codemirror",
+    "commitlint",
+    "cropperjs",
+    "echarts",
+    "esnext",
+    "esno",
+    "flextree",
+    "iconify",
+    "INTLIFY",
+    "lintstagedrc",
+    "logicflow",
+    "mockjs",
+    "nprogress",
+    "pinia",
+    "pnpm",
+    "qrcode",
+    "shawnXiao",
+    "sider",
+    "sortablejs",
+    "stylelint",
+    "tailwindcss",
+    "tinymce",
+    "vditor",
+    "VITE",
+    "vitejs",
+    "vueuse",
+    "vuex",
+    "windi",
+    "zxcvbn"
+  ],
+  "editor.guides.indentation": false
+}
